@@ -1,0 +1,36 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js init
+
+PATH: 
+  C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Jhosef\bin;C:\Users\Jhosef\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Jhosef\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Git\cmd;C:\xampp\php;C:\Program Files\PuTTY;C:\Program Files (x86)\Yarn\bin;C:\Program Files\nodejs;C:\ProgramData\ComposerSetup\bin;C:\Android\Sdk\platform-tools;C:\Android\Sdk\tools;C:\Users\Jhosef\AppData\Local\Yarn\bin;C:\Users\Jhosef\AppData\Roaming\npm;C:\Users\Jhosef\AppData\Roaming\Composer\vendor\bin;C:\Android\Sdk\platform-tools;C:\Android\Sdk\tools;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
+
+Yarn version: 
+  1.7.0
+
+Node version: 
+  11.1.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: canceled
+      at Interface.<anonymous> (C:\Program Files (x86)\Yarn\lib\cli.js:131036:13)
+      at Interface.emit (events.js:182:13)
+      at Interface._ttyWrite (readline.js:793:16)
+      at ReadStream.onkeypress (readline.js:178:10)
+      at ReadStream.emit (events.js:182:13)
+      at emitKeys (internal/readline.js:424:14)
+      at emitKeys.next (<anonymous>)
+      at ReadStream.onData (readline.js:1030:36)
+      at ReadStream.emit (events.js:182:13)
+      at addChunk (_stream_readable.js:283:12)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
