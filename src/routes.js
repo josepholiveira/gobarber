@@ -35,6 +35,7 @@ routes.get('/app/logout', SessionController.destroy)
 routes.get('/files/:file', FileController.show)
 
 routes.get('/app/appointments/new/:provider', AppointmentController.create)
+routes.post('/app/appointments/new/:provider', AppointmentController.store)
 routes.get('/app/available/:provider', AvailableController.index)
 
 module.exports = routes

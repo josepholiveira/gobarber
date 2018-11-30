@@ -27,7 +27,7 @@
     minDate: new Date(),
     dateFormat: 'd/m/Y',
     onChange: function (date) {
-      fetch(`/app/available/{{ provider.id }}?data=${date[0].getTime()}`).then(function (response) {
+      fetch(`/app/available/{{ provider.id }}?date=${date[0].getTime()}`).then(function (response) {
         response.text().then(function (html){
           document.getElementById('hours').innerHTML = html
         })
