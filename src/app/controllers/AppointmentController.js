@@ -30,6 +30,19 @@ class AppointmentController {
     })
     return res.redirect('/app/dashboard')
   }
+
+  async remove(req, res) {
+    const {
+      id
+    } = req.params
+
+    await Appointment.destroy({
+      where: {
+        id: id
+      }
+    })
+    return res.redirect('/app/schedule')
+  }
 }
 
 module.exports = new AppointmentController()
